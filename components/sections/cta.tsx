@@ -93,7 +93,7 @@ export function CTA() {
         </div>
         
         <div className="pt-6 text-[10px] font-black uppercase tracking-[0.5em] text-white/40 italic">
-          No commitment. cancel anytime. full access.
+          No commitment. Cancel anytime. Full access.
         </div>
       </div>
     </section>

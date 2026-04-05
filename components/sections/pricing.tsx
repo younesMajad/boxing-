@@ -99,7 +99,7 @@ export function Pricing() {
       <div className="max-w-7xl mx-auto space-y-24">
         <div className="text-center space-y-6 section-header">
            <div className="inline-block bg-primary/10 text-primary border border-primary/20 px-4 py-1 font-black italic uppercase tracking-widest text-xs rounded-lg">
-             Investment in Yourself
+             Investment In Yourself
            </div>
            <h2 className="text-6xl sm:text-7xl font-black italic uppercase leading-none tracking-tighter">
              Competitive Pricing
