@@ -1,6 +1,5 @@
 'use client'
 
-import React from 'react'
 import { Navbar } from '@/components/sections/navbar'
 import { Hero } from '@/components/sections/hero'
 import { Stats } from '@/components/sections/stats'

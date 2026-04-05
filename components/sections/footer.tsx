@@ -1,15 +1,15 @@
 'use client'
 
-import React from 'react'
 import {  Heart, Youtube, Instagram, Facebook } from 'lucide-react'
 
 const footer_links = [
   {
     title: 'Company',
     links: [
-      { label: 'About', href: '#' },
-      { label: 'Blog', href: '#' },
-      { label: 'Careers', href: '#' },
+      {lable: "Home", href:"#"},
+      { label: 'About', href: '#About' },
+      { label: 'Blog', href: '#Blog' },
+      { label: 'Careers', href: '#Careers' },
     ],
   },
   {
