@@ -124,7 +124,7 @@ export function Features() {
               {features_data.map((feature, i) => {
                 const Icon = feature.icon
                 return (
-                  <div key={i} className="feature-item group flex gap-8 items-start hover:-translate-y-1 transition-transform duration-300">
+                  <div key={i} className="flex justify-center feature-item group  gap-8 items-start hover:-translate-y-1  transition-transform duration-400">
                     <div className="relative group-hover:scale-110 transition-transform duration-500">
                       <div className="absolute inset-0 bg-primary/20 rounded-2xl blur-lg rotate-12 opacity-0 group-hover:opacity-100 transition-opacity" />
                       <div className="relative p-4 rounded-2xl bg-card border border-border shadow-md text-primary group-hover:bg-primary group-hover:text-primary-foreground group-hover:border-primary transition-all duration-300">

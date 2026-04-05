@@ -36,6 +36,7 @@ export function Navbar() {
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-10">
           {[
+            {label: " Home ", href: "#"},
             { label: 'Features', href: '#features' },
             { label: 'Pricing', href: '#pricing' },
             { label: 'Stats', href: '#stats' },
@@ -70,6 +71,7 @@ export function Navbar() {
       {/* Mobile Menu Overlay (simple for now) */}
       <div className={`md:hidden absolute top-full left-0 w-full bg-background/95 backdrop-blur-3xl border-b border-border transition-all duration-500 overflow-hidden ${mobileMenuOpen ? 'max-h-[300px] opacity-100 py-8' : 'max-h-0 opacity-0 py-0'}`}>
          <div className="flex flex-col items-center gap-6 px-4">
+            <a href='#' className='text-xl font-black uppercase italic tracking-widest hover:text-primary' onClick={() => setMobileMenuOpen(false)}>Home</a>
             <a href="#features" className="text-xl font-black uppercase italic tracking-widest hover:text-primary" onClick={() => setMobileMenuOpen(false)}>Features</a>
             <a href="#pricing" className="text-xl font-black uppercase italic tracking-widest hover:text-primary" onClick={() => setMobileMenuOpen(false)}>Pricing</a>
             <a href="#stats" className="text-xl font-black uppercase italic tracking-widest hover:text-primary" onClick={() => setMobileMenuOpen(false)}>Stats</a>
