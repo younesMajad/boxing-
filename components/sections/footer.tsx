@@ -15,16 +15,13 @@ const footer_links = [
   {
     title: 'Product',
     links: [
-      { label: 'Features', href: '#' },
-      { label: 'Pricing', href: '#' },
-      { label: 'Security', href: '#' },
+      { label: 'Features', href: '#Features' },
+      { label: 'Pricing', href: '#Pricing' },
     ],
   },
   {
     title: 'Legal',
     links: [
-      { label: 'Privacy', href: '#' },
-      { label: 'Terms', href: '#' },
       { label: 'Contact', href: '#' },
     ],
   },

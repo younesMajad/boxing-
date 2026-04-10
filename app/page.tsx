@@ -5,7 +5,7 @@ import { Hero } from '@/components/sections/hero'
 import { Stats } from '@/components/sections/stats'
 import { Features } from '@/components/sections/features'
 import { Preparation } from '@/components/sections/preparation'
-import { Pricing } from '@/components/sections/pricing'
+// import { Pricing } from '@/components/sections/pricing'
 import { Partners } from '@/components/sections/partners'
 import { CTA } from '@/components/sections/cta'
 import { Footer } from '@/components/sections/footer'
@@ -20,7 +20,7 @@ export default function Home() {
         <Stats />
         <Features />
         <Preparation />
-        <Pricing />
+        {/* <Pricing /> */}
         <Partners />
         <CTA />
       </main>
